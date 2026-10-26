@@ -13,4 +13,6 @@ The prompt or prompts you used:
         >Prompt 2: The Submit button in card-add and the Update button in card-update need to go to card-list, not card-details
         >Prompt 3: Rate how I did on the rubric without changing anythin: [pasted rubric]
 A brief explanation of how AI supported your work:
+    -It allowed me to improve the CSS, fix linking, and translate my wireframes into real pages. It had some issues, but some of it was due to user error that could have been fixed with better prompting. It helped speed up the time it takes to create pages.
 One example of an AI suggestion you tested, changed, or rejected:
+    -I changed the links of the card-details pages to be on the right like it showed in my wireframes since it was on the left. It looked much better this way.
