@@ -8,11 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>AirAsia Gift Cards</h1>
-    <nav aria-label="Main navigation">
-      <a href="card-list.php">Gift Cards</a>
-      <a href="login.php">Log out</a>
-    </nav>
+    <h1><img src="./images/air-asia.png" alt="AirAsia Logo" style="height: 1.2em; width: auto;">AirAsia Gift Cards</h1>
   </header>
 
   <main>
@@ -54,7 +50,7 @@
         </div>
 
         <div class="actions">
-          <a class="btn btn-secondary" href="card-details.php">Cancel</a>
+          <a class="btn btn-secondary" href="card-list.php">Cancel</a>
           <button type="submit" class="btn">Update</button>
         </div>
       </form>

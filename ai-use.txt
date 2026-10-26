@@ -1,6 +1,14 @@
 Create a file named ai-use.txt in the root of your repository. Include:
 
-The AI tool or tools used
-The prompt or prompts you used
-A brief explanation of how AI supported your work
-One example of an AI suggestion you tested, changed, or rejected
+The AI tool or tools used:
+    -Claude
+    -GitHub Copilot
+The prompt or prompts you used:
+    -Claude: 
+        >Prompt 1: Gave it the AI usage rules that you suggested in the submission details and uploaded it the empty files created based on the file structure you provided.
+        >Prompt 2: Pasted it the rubric and said "There are not anything in any of the files, I just created the files themselves. Only do what the AI use says you are allowed to do:" and repasted the AI guidelines to make sure it listened.
+        >Prompt 3: (kept the CSS and gift card image from before) Realized AI had done too much and reprompted for the template: Translate these wireframes into HTML-only PHP pages. here is the AI rubric. Use an AI assistant during your development process. You may use AI to: Translate your HW1 wireframes into HTML page structures Suggest semantic HTML elements and accessible form labels Help create or improve CSS Debug broken links, forms, images, or styling Review your work against the assignment requirements You must review and test all AI generated suggestions before including them in your project. You should be able to explain the purpose of the HTML elements, form attributes, hyperlinks, and CSS rules in your submitted website. Create a file named ai-use.txt in the root of your repository. Include: The AI tool or tools used The prompt or prompts you used A brief explanation of how AI supported your work One example of an AI suggestion you tested, changed, or rejected This is the file structure. Use an organized folder structure. For example: airasia-hw2/ ├── login.php ├── card-list.php ├── card-details.php ├── card-add.php ├── card-update.php ├── ai-use.txt ├── css/ │   └── styles.css └── images/ └── gift-card.png 
+    -GitHub Copilot: 
+        >Prompt 1: "Do inline css for the img in the header of the page to make it the same height as the rest of h1 header (scale the width accordingly)"
+A brief explanation of how AI supported your work:
+One example of an AI suggestion you tested, changed, or rejected:
