@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #222; background: #f4f4f6; line-height: 1.5; }
+header { background: #c8102e; color: #fff; padding: 1rem 2rem; }
+header h1 { margin: 0; font-size: 1.5rem; }
+nav { background: #fff; border-bottom: 1px solid #ddd; padding: 0.75rem 2rem; }
+nav a { margin-right: 1.25rem; color: #c8102e; font-weight: bold; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+h2 { margin-top: 0; }
+.panel { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 1rem; text-align: center; }
+.card img { max-width: 100%; height: auto; border-radius: 6px; }
+.card h3 { margin: 0.75rem 0 0.25rem; }
+.card a { color: #c8102e; font-weight: bold; }
+.points { margin: 0 0 0.5rem; color: #555; }
+.details { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; }
+.details img { width: 100%; max-width: 360px; height: auto; border-radius: 8px; }
+table { border-collapse: collapse; min-width: 280px; }
+th, td { border: 1px solid #ccc; padding: 0.6rem 1rem; text-align: left; }
+th { background: #f0f0f0; width: 10rem; }
+form { max-width: 460px; }
+.field { margin-bottom: 1rem; }
+label { display: block; font-weight: bold; margin-bottom: 0.25rem; }
+input, select { width: 100%; padding: 0.55rem; border: 1px solid #999; border-radius: 4px; font-size: 1rem; }
+.button, button { display: inline-block; background: #c8102e; color: #fff; border: 0; border-radius: 4px; padding: 0.6rem 1.25rem; font-size: 1rem; font-weight: bold; text-decoration: none; cursor: pointer; }
+.button.secondary { background: #666; }
+.actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; }
+.login-box { max-width: 380px; margin: 0 auto; }
+.id-text { margin-bottom: 1rem; }
