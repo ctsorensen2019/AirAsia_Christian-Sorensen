@@ -3,48 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Update Gift Card | AirAsia Rewards</title>
+  <title>Update Gift Card | AirAsia Gift Cards</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
-    <h1>AirAsia Rewards Redemption System</h1>
+    <h1>AirAsia Gift Cards</h1>
+    <nav aria-label="Main navigation">
+      <a href="card-list.php">Gift Cards</a>
+      <a href="login.php">Log out</a>
+    </nav>
   </header>
-  <nav>
-    <a href="card-list.php">Back</a>
-  </nav>
+
   <main>
-    <section class="panel">
+    <a class="back-link" href="card-details.php">&larr; Back</a>
+
+    <section class="panel form-narrow">
       <h2>Update Gift Card</h2>
-      <p class="id-text"><strong>Card ID:</strong> 1001</p>
-      <form action="card-list.php" method="post">
-        <div class="field">
-          <label for="card_name">Card Name</label>
-          <input type="text" id="card_name" name="card_name" value="Grocery Gift Card" required>
+
+      <!-- HTML-only for HW2: Update returns to the details page; no data is saved yet. -->
+      <form action="card-details.php" method="get">
+        <div class="form-group">
+          <label for="card-id">Card ID</label>
+          <!-- Card ID is read-only: changing it would cause errors in the backend. -->
+          <input type="text" id="card-id" name="card_id" value="1001" readonly>
         </div>
-        <div class="field">
-          <label for="card_type">Card Type</label>
-          <select id="card_type" name="card_type" required>
-            <option value="Retail" selected>Retail</option>
-            <option value="Dining">Dining</option>
-            <option value="Entertainment">Entertainment</option>
-            <option value="Travel">Travel</option>
+
+        <div class="form-group">
+          <label for="card-name">Card Name</label>
+          <input type="text" id="card-name" name="card_name" value="Card Name 1" required>
+        </div>
+
+        <div class="form-group">
+          <label for="card-type">Card Type</label>
+          <select id="card-type" name="card_type" required>
+            <option value="travel" selected>Card type text</option>
+            <option value="food">Food</option>
+            <option value="merchandise">Merchandise</option>
           </select>
         </div>
-        <div class="field">
-          <label for="card_value">Card Value ($)</label>
-          <input type="number" id="card_value" name="card_value" min="0" step="0.01" value="50.00" required>
+
+        <div class="form-group">
+          <label for="card-value">Card Value</label>
+          <input type="number" id="card-value" name="card_value" value="50.00" min="0" step="0.01" required>
         </div>
-        <div class="field">
-          <label for="points_required">Points Required</label>
-          <input type="number" id="points_required" name="points_required" min="0" step="1" value="10000" required>
+
+        <div class="form-group">
+          <label for="points-required">Points Required</label>
+          <input type="number" id="points-required" name="points_required" value="10000" min="0" step="1" required>
         </div>
+
         <div class="actions">
-          <a class="button secondary" href="card-list.php">Cancel</a>
-          <button type="submit">Update</button>
+          <a class="btn btn-secondary" href="card-details.php">Cancel</a>
+          <button type="submit" class="btn">Update</button>
         </div>
       </form>
     </section>
   </main>
+
+  <footer>&copy; AirAsia Gift Card Administration</footer>
 </body>
 </html>
