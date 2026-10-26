@@ -18,7 +18,7 @@
       <h2>Update Gift Card</h2>
 
       <!-- HTML-only for HW2: Update returns to the details page; no data is saved yet. -->
-      <form action="card-details.php" method="get">
+      <form action="card-list.php" method="get">
         <div class="form-group">
           <label for="card-id">Card ID</label>
           <!-- Card ID is read-only: changing it would cause errors in the backend. -->
@@ -50,7 +50,7 @@
         </div>
 
         <div class="actions">
-          <a class="btn btn-secondary" href="card-list.php">Cancel</a>
+          <a class="btn btn-secondary" href="card-details.php">Cancel</a>
           <button type="submit" class="btn">Update</button>
         </div>
       </form>

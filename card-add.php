@@ -14,6 +14,7 @@
   <main>
     <a class="back-link" href="card-list.php">&larr; Back</a>
 
+
     <section class="panel form-narrow">
       <h2>Add Gift Card</h2>
 
@@ -45,7 +46,7 @@
         </div>
 
         <div class="actions">
-          <a class="btn btn-secondary" href="card-list.php">Cancel</a>
+          <a class="btn btn-secondary" href="card-details.php">Cancel</a>
           <button type="submit" class="btn">Submit</button>
         </div>
       </form>
