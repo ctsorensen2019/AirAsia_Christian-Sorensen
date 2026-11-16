@@ -34,4 +34,5 @@ A brief explanation of how AI supported your work:
 One AI suggestion you tested, revised, or rejected:
     -The first prompt was outdated because I did not give it the requirements doucments. I had to add bounds for the SQL that created the rewards.db so it would not accept values outside the bounds.
 A brief explanation of how you verified the final code and database behavior:
+    -sqlite3 database/rewards.db "SELECT COUNT(*) FROM ACCOUNT; SELECT COUNT(*) FROM GIFTCARD;"
     -
