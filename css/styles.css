@@ -28,3 +28,5 @@ input, select { width: 100%; padding: 0.55rem; border: 1px solid #999; border-ra
 .actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; }
 .login-box { max-width: 380px; margin: 0 auto; }
 .id-text { margin-bottom: 1rem; }
+.logo { height: 1.2em; width: auto; vertical-align: middle; }
+footer { text-align: center; color: #555; padding: 1.5rem 1rem; }

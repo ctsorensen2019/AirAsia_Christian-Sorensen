@@ -16,3 +16,22 @@ A brief explanation of how AI supported your work:
     -It allowed me to improve the CSS, fix linking, and translate my wireframes into real pages. It had some issues, but some of it was due to user error that could have been fixed with better prompting. It helped speed up the time it takes to create pages.
 One example of an AI suggestion you tested, changed, or rejected:
     -I changed the links of the card-details pages to be on the right like it showed in my wireframes since it was on the left. It looked much better this way.
+
+
+
+11/14-11/15:
+The AI tool or tools used:
+    -Claude
+    -GitHub Copilot
+The prompt or prompts you used:
+    -Claude:
+        >Prompt 1: I need you to follow these instructions with the AirAsia-GitHub-Repo.zip to improve the work I did for part 2 and tell me what to do for the other parts 3-8, do not fix it, just tell me how to do it so that I can learn for myself. Be succint, a lot of words will not be helpful, but if you need to show me the code to show me how to do it, go for it. Again, I want to learn for myself. cowboy-project-IS6465-group-3.zip is an example of what I have done in the past that I want to implement. Here are the requirements with the parts listed out in the pasted text that describes what to do for AirAsia Rewards Redemption System. Let me know if the gift card names are weird that I chose. Also make the nav, header, and footer pages for me.
+        >Prompt 2: Worried about this part in step 2: Do not repeat the same header, navigation, footer, or CSS links on every content page. How am I going to do that? Help me do the step by step process with what you know now and the recreated databases once I fixed the SQL to have the checks. Make sure to teach me as you go and explain your processes backend so that I can correct it. If you are unsure about a decision you made, put your confidence rate next to it so I can judge for myself.
+    -GitHub Copilot:
+        >Prompt 1:
+A brief explanation of how AI supported your work:
+    -It allowed me to check my work and test how my work fit the requirements of the rubric, as well as teach me what to do next.
+One AI suggestion you tested, revised, or rejected:
+    -The first prompt was outdated because I did not give it the requirements doucments. I had to add bounds for the SQL that created the rewards.db so it would not accept values outside the bounds.
+A brief explanation of how you verified the final code and database behavior:
+    -

@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Update Gift Card | AirAsia Gift Cards</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-    <h1><img src="./images/air-asia.png" alt="AirAsia Logo" style="height: 1.2em; width: auto;">AirAsia Gift Cards</h1>
-  </header>
+<?php
+$pageTitle = 'Gift Card Details';   // card-add: 'Add Gift Card'   card-update: 'Update Gift Card'
+require_once __DIR__ . '/includes/header.php';
+require_once __DIR__ . '/includes/nav.php';
+?>
 
   <main>
     <a class="back-link" href="card-details.php">&larr; Back</a>
@@ -57,6 +50,4 @@
     </section>
   </main>
 
-  <footer>&copy; AirAsia Gift Card Administration</footer>
-</body>
-</html>
+  <?php require_once __DIR__ . '/includes/footer.php'; ?>
