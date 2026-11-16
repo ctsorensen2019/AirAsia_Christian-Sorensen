@@ -79,18 +79,20 @@
 **Steps and input:**
 1. On the add form (or update form), submit invalid values. Examples: blank Card Name; altered Card Type (edit the dropdown value in browser dev tools); Card Value `0` or `-5`; Points Required `0`, `-1`, or `1.5`.
 2. Record each input you tried.
+See images/invalid-add-card.png for an example of what I tried.
 
 **Expected result:** Each invalid submission is rejected with a helpful error message, and no record is added or changed.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** Each invalid submission is rejected with a helpful error message, and no record is added or changed.
+**Status:** Pass 
 
 ## T08: Invalid Gift Card identifier handling
 **Steps and input:**
 1. Open `/card-details.php?card_id=abc`, `?card_id=-1`, `?card_id=99999`, and with no `card_id`.
 2. Repeat for `card-update.php` and `card-delete.php`.
+See invalid-card-id.png for what I did for card-details (https://fictional-journey-ggr569vqx4j3p9q9-8000.app.github.dev/card-details.php?card_id=abc). I used the same for card-update and card-delete and got the same.
 
 **Expected result:** Each request shows a safe "not found or invalid" message. There are no PHP errors and no records are changed.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** Each request shows a safe "not found or invalid" message. There are no PHP errors and no records are changed.
+**Status:** Pass 
 
 
