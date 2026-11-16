@@ -44,11 +44,11 @@ README.md  test-report.md  ai-use.txt
 
 | Use case | PHP page or pages | Database table | Test evidence |
 | -------- | ----------------- | -------------- | ------------- |
-| View a List of Gift Cards | card-list.php | GIFTCARD | <!-- One sentence: how you tested it --> |
-| View Details of One Gift Card | card-details.php | GIFTCARD | <!-- One sentence --> |
-| Add a Gift Card | card-add.php | GIFTCARD | <!-- One sentence --> |
-| Update a Gift Card | card-update.php | GIFTCARD | <!-- One sentence --> |
-| Delete a Gift Card | card-delete.php | GIFTCARD | <!-- One sentence --> |
+| View a List of Gift Cards | card-list.php | GIFTCARD | Navigated to the page card-list.php in browser: https://fictional-journey-ggr569vqx4j3p9q9-8080.app.github.dev/card-list.php. See images folder for verification. |
+| View Details of One Gift Card | card-details.php | GIFTCARD | Details page for ID 21 with all five fields after adding a card as seen below. See images folder for verification.|
+| Add a Gift Card | card-add.php | GIFTCARD | The new card appearing in the list as "Yes Very Cool". See images folder for verification. |
+| Update a Gift Card | card-update.php | GIFTCARD | Name changed from “Yes Very Cool” to “Yes Very Cool!!!!” on the details page. See images folder for verification. |
+| Delete a Gift Card | card-delete.php | GIFTCARD | Confirmation page naming ID 21, "Yes Very Cool, then the list without it. See images folder for verification. |
 
 ## Known Limitations
 This application is for local classroom use. It has no login, authorization, or CSRF protection yet (HW4).
