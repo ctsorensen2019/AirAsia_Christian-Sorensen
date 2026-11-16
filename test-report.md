@@ -23,26 +23,27 @@
 **Steps and input:**
 1. Open `/tests/validation-tests.php`.
 2. Review the PASS or FAIL result for each test (valid data, blank name, invalid type, zero or negative value, invalid points).
+(can also do it by doing "php tests/validation-tests.php" in the Terminal.)
 
 **Expected result:** Every test displays PASS. No database records are added, changed, or deleted.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** Every test displays PASS. No database records are added, changed, or deleted.
+**Status:** Pass
 
 ## T02: View Gift Card List
 **Steps and input:**
 1. Open `/card-list.php`.
 
 **Expected result:** Cards from the database are shown with image, card name, and points required. Each name or image links to its details page. A link to Add Gift Card is available.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** Cards from the database are shown with image, card name, and points required. Each name or image links to its details page. A link to Add Gift Card is available.
+**Status:** Pass 
 
 ## T03: View Gift Card Details
 **Steps and input:**
 1. From the list, click a card (or open `/card-details.php?card_id=1`).
 
 **Expected result:** The card's ID, name, type, value, and points are shown read-only, with links to Update, Delete, and Back to list.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** The card's ID, name, type, value, and points are shown read-only, with links to Update, Delete, and Back to list.
+**Status:** Pass
 
 ## T04: Add Gift Card
 **Steps and input:**
@@ -51,8 +52,8 @@
 3. Submit.
 
 **Expected result:** The new card is saved and the user returns to the list, where the new card appears.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** The new card is saved and the user returns to the list, where the new card appears.
+**Status:** Pass 
 
 ## T05: Update Gift Card
 **Steps and input:**
@@ -61,8 +62,8 @@
 3. Submit.
 
 **Expected result:** The form is prepopulated with the existing values. After submitting, the updated values are displayed.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** The form is prepopulated with the existing values. After submitting, the updated values are displayed.
+**Status:** Pass
 
 ## T06: Delete Gift Card
 **Steps and input:**
@@ -71,8 +72,8 @@
 3. Click the confirm button (POST).
 
 **Expected result:** The card is removed and the user returns to the list. Opening the delete page does not delete anything until confirmation.
-**Actual result:**
-**Status:** Pass / Fail
+**Actual result:** The card is removed and the user returns to the list. Opening the delete page does not delete anything until confirmation.
+**Status:** Pass 
 
 ## T07: Invalid or altered input handling
 **Steps and input:**
@@ -92,11 +93,4 @@
 **Actual result:**
 **Status:** Pass / Fail
 
----
 
-## Defects Found and Fixed
-<!-- Delete this section if you found no defects. Add one block per defect. -->
-
-| # | Problem | Fix | Retest result |
-| - | ------- | --- | ------------- |
-| 1 |  |  |  |
